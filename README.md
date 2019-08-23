@@ -10,6 +10,8 @@ Built with HTML
 
 flutterwave https://twitter.com/ElijahObominuru/status/1164268417488248832?s=08
 
+Lucid blog post url https://lucid.blog/elijjaaahhhh/post/1566560090
+
 SETTING UP
 Clone this repository https://github.com/Elijahscriptdev/Elijah.html.git
 
