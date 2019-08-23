@@ -7,6 +7,8 @@ Resume page
 BUILT WITH
 Built with HTML 
 
+flutterwave https://twitter.com/ElijahObominuru/status/1164268417488248832?s=08
+
 SETTING UP
 Clone this repository https://github.com/Elijahscriptdev/Elijah.html.git
 USING THE PROJECT
