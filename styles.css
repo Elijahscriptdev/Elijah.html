@@ -1,0 +1,92 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    background: rgb(240, 239, 239);
+    color: #252424;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 32px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+img {
+    width: 130px;
+    border-radius: 50%;
+}
+
+.my-name {
+    font-size: 48px;
+    line-height: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.my-title {
+    font-size: 24px;
+    font-weight: 300;
+    color: #236fb2
+}
+
+.links {
+    display: flex;
+}
+
+.job {
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom:1px solid lightgrey;
+}
+
+.job:last-child {
+    border-bottom: none;
+}
+
+a {
+    background-color: #236fb2;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    color: #fff;
+}
+
+.job-title-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.checked {
+    color: #236fb2;
+  }
