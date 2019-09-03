@@ -87,6 +87,20 @@ a {
     font-size: 15px;
 }
 
-.checked {
-    color: #236fb2;
+  /* Container for skill bars */
+.bar {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
   }
+  
+  .skills {
+    text-align: right; /* Right-align text */
+    padding-top: 5px; /* Add top padding */
+    padding-bottom: 5px; /* Add bottom padding */
+    color: white; /* White text color */
+  }
+  
+  .html {width: 90%; background-color: #4CAF50;} /* Green */
+  .css {width: 80%; background-color: #2196F3;} /* Blue */
+  .js {width: 70%; background-color: #f44336;} /* Red */
+  .git {width: 70%; background-color: #808080;} /* Dark Grey */
