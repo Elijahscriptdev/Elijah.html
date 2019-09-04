@@ -23,6 +23,7 @@ img {
     padding: 32px;
     background: #fff;
     box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    position: relative;
 }
 
 section {
@@ -78,6 +79,7 @@ a {
     text-decoration: none;
     box-shadow: 0 2px 4px rgba(0,0,0,0.3);
     color: #fff;
+    cursor: pointer;
 }
 
 .job-title-container {
@@ -104,3 +106,73 @@ a {
   .css {width: 80%; background-color: #2196F3;} /* Blue */
   .js {width: 70%; background-color: #f44336;} /* Red */
   .git {width: 70%; background-color: #808080;} /* Dark Grey */
+
+  /* form */
+  @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+.form {
+    font-family: 'Josefin Sans', sans-serif;
+    /* outline: none; */
+    background: rgb(240, 239, 239);
+    margin: 20px;
+}
+
+.contact-me {
+    margin-left: 235px;
+    width: 400px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0px 2px 4px rgba(16, 25, 65, 0.9);
+}
+
+.contact-me h2{
+    color: #236fb2;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.contact-me .btn{
+    margin-bottom: 20px;
+}
+
+#name,#email,#title,#message{
+    width: 90%;
+    padding: 20px;
+    margin: 5px 20px; 
+
+}
+.contact-me textarea {
+    height: 80px;
+    resize: none;
+}
+
+input,textarea {
+    border-radius: 5px;
+    border-style: none;
+    background-color: #cec6c6
+}
+
+.contact-me .btn input[type="submit"] {
+    padding: 10px;
+    background-color: #236fb2;
+    width: 90%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact-me #error-msg {
+    margin: 0 20px 20px;
+    padding: 0px;
+    background: #fe8b8e;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+    width: 90%;
+}
