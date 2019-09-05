@@ -19,5 +19,19 @@ function validation() {
         error_msg.innerHTML = text;
         return false;
     }
-    return false;
+
+    if (title.length < 4){
+        text = "title must be at least 4 characters"
+        error_msg.innerHTML = text;
+        return false;
+    }
+
+    if (message.length < 20){
+        text = "message must be at least 20 characters"
+        error_msg.innerHTML = text;
+        return false;
+    }
+
+    alert("Form Submitted Successfully")
+    return true;
 }
