@@ -1,12 +1,12 @@
 # Elijah.html
 HNG pre-internship task 3 project 2019.
-The aim of this project was to create a page that contains my CV in  HTML and CSS.
+The aim of this project was to create a page that contains my CV in  HTML, CSS and JAVASCRIPT.
 
 FEATURES
 Resume page
 
 BUILT WITH
-Built with HTML AND CSS
+Built with HTML, CSS and JAVASCRIPT.
 
 flutterwave https://twitter.com/ElijahObominuru/status/1164268417488248832?s=08
 
