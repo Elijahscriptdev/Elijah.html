@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <section>
+            <div>
+                <div>
+                    <img src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1566550449/meee_bdrv8a.jpg" alt="elijah-img" class="elijah-img">
+                </div>
+            </div>
+
+            <div>
+                <div class="my-name">Elijah Obominuru</div>
+                <div class="my-title">Full Stack Web Developer</div>
+                <div class="links">
+                    <div class="item">
+                            <p>91 Oniru Resettlement Lekki, Lagos <br>08062540732 <strong><i>elijjaaahhhh@gmail.com</i></strong></p>
+                    </div>
+                </div>
+
+                <p>I am an aspiring softwaree developer with knowledge in HTML, CSS and JAVASCRIPT seeking to further my career for the realization of corporate goals.</p>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section>
+            <div class="section-title">Experience</div>
+            <div>
+                <div class="job">
+                    <div class="job-title-container">
+                        <div>
+                            <div class="job-company">Enugu State Universal Education Board, Enugu State</div>
+                            <div class="job-title">Computer Analyst (Teacher verification exercise)</div>
+                        </div>
+
+                        <div>June  2016 - August 2016</div>
+                    </div>
+                    <!-- job-title-container -->
+                </div>
+                <!-- end of job -->
+
+                <div class="job">
+                    <div class="job-title-container">
+                        <div>
+                            <div class="job-company">Union Schools Nsukka, Enugu State</div>
+                            <div class="job-title">Class Teacher(National Youth Service Corps)</div>
+                        </div>
+
+                        <div>April 2016 - APRIL  2017</div>
+                    </div>
+                    <!-- job-title-container -->
+                </div>
+                <!-- end of job -->
+
+                <div class="job">
+                    <div class="job-title-container">
+                        <div>
+                            <div class="job-company">De_Top Schools , Okokomaiko Lagos</div>
+                            <div class="job-title">Science Teacher</div>
+                        </div>
+
+                        <div>May  2017 - April  2019</div>
+                    </div>
+                    <!-- job-title-container -->
+                </div>
+                <!-- end of job -->
+
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section>
+            <div class="section-title">Education</div>
+            <div>
+                <div class="job">
+                    <div class="job-title-container">
+                        <div>
+                            <div class="job-company">Delta State University</div>
+                            <div class="job-title">Medical Biochemistry</div>
+                        </div>
+
+                        <div>December  2009 - October  2014</div>
+                    </div>
+                    <!-- job-title-container -->
+                </div>
+                <!-- end of job -->
+
+                <div class="job">
+                    <div class="job-title-container">
+                        <div>
+                            <div class="job-company">Udemy.com </div>
+                            <div class="job-title">Javascript beginner bootcamp</div>
+                        </div>
+
+                        <div>April  2019 - June 2019</div>
+                    </div>
+                    <!-- job-title-container -->
+                </div>
+                <!-- end of job -->
+
+                <div class="job">
+                    <div class="job-title-container">
+                        <div>
+                            <div class="job-company">Microverse.org</div>
+                            <div class="job-title">Full Stack Web development</div>
+                        </div>
+
+                        <div>August  2019</div>
+                    </div>
+                    <!-- job-title-container -->
+                </div>
+                <!-- end of job -->
+
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section>
+            <div class="section-title">Skills</div>
+            <div>
+                <p>HTML</p>
+                <div class="bar">
+                    <div class="skills html">90%</div>
+                </div>
+                    
+                <p>CSS</p>
+                <div class="bar">
+                  <div class="skills css">80%</div>
+                </div>
+                    
+                <p>JAVASCRIPT</p>
+                <div class="bar">
+                  <div class="skills js">70%</div>
+                </div>
+                    
+                <p>GIT/VERSION CONTROL</p>
+                <div class="bar">
+                  <div class="skills git">70%</div>
+                </div>               
+            </div>
+        </section>
+
+        <!-- project -->
+        <section>
+                <div class="section-title">Project</div>
+                <div>
+                    <div class="project">Todo-list Mini-App <span><a href="http://condescending-mccarthy-40c1f3.netlify.com.">CLICK HERE</a></span></div>
+                    <div class="project">Leave Management System App <span><a href="https://github.com/Elijahscriptdev/Leave-Mangement-System.git">CLICK HERE</a></span></div>
+                </div>
+        </section>
+
+        <!-- contact form -->
+        <section class="form">
+            <div class="contact-me">
+                <h2>CONTACT ME</h2>
+                <div id="error_msg"></div>
+
+                <form id="myform" action="contact.php" method="POST" onsubmit="return validation()">
+                    <div class="input-field"><input type="text" placeholder="Name" id="name" name="name"></div>
+                    <div class="input-field"><input type="email" placeholder="Email" id="email" name="email"></div>
+                    <div class="input-field"><input type="text" placeholder="Title" id="title" name="title"></div>
+                    <div class="input-field"><textarea type="text" placeholder="Message..." id="message" name="message"></textarea></div>
+                    <div class="btn"><input type="submit" name="submit"></div>
+                </form>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>

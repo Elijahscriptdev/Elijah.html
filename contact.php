@@ -1,10 +1,19 @@
 <?php
-if (isset($_POST['submit'])) {
+if (isset($_POST['submit'])) 
+{
     $name = $_POST['name'];
-    $subject = $_POST['title'];
+    $title = $_POST['title'];
     $mailFrom = $_POST['email'];
-    $message = $_POST['yourMessage'];
+    $message = $_POST['message'];
+
+    $concat_msg = "Title:".$title."Name:".$name."Email:".$mailFrom."Message:".$message;
+    $filename = "contact.txt";
+    fopen($filename, 'a');
+    fwrite($filename,$concat_msg);
+    fclose($filename);
     
-    echo "<pre>Thank you for contacting me " .$name. ", your message has been received.Expect my reply withhin the next 24HRS.</pre>";
+    echo "<script type='text/javascript'>window.alert('You message has been sent succefully!!!!')</script>";
+    echo "<script type='text/javascript'>document.location='index.html'</script>";
+
 }
 ?>
